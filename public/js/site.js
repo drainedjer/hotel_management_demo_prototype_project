@@ -99,7 +99,11 @@ $('#navLinks').onclick = () => $('#navLinks').classList.remove('open');
 let timer;
 $('#filters').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(loadProperties, 250); });
 $('#onlyAvailable').onchange = $('#amenity').onchange = loadProperties;
-$('#reset').onclick = () => { $('#filters').reset(); $('#onlyAvailable').checked = false; $('#amenity').value = ''; loadProperties(); };
+$('#reset').onclick = () => {
+  ['q', 'type', 'minPrice', 'maxPrice', 'occupants', 'amenity'].forEach((id) => ($('#' + id).value = ''));
+  $('#onlyAvailable').checked = false;
+  loadProperties();
+};
 
 (async function start() {
   initMap();
