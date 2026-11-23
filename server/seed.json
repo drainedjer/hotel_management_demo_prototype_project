@@ -35,13 +35,13 @@
     {
       "id": 1,
       "ownerId": 1,
-      "name": "South Mars St.",
+     "name": "Neptune St. (near Alfamart)",
       "propertyType": "Apartment",
-     "address": "15 Mars St., Golden Country Homes, Alangilan",
+      "address": "Neptune St. (near Alfamart), Golden Country Homes, Alangilan",
       "city": "Batangas City",
-      "latitude": 13.7860,
-      "longitude": 121.0739,
-      "description": "Sunlit mid-rise urban apartments in Golden Country Homes tailored for young professionals, faculty, and graduate students. Features private glass balconies, 24/7 concierge security, and fiber-ready study corners just minutes from BatStateU Alangilan.",
+      "latitude": 13.7852,
+      "longitude": 121.0724,
+      "description": "Sunlit mid-rise urban apartments along Neptune Street in Golden Country Homes, right near Alfamart and just minutes from BatStateU Alangilan. Features private glass balconies, 24/7 concierge security, and fiber-ready study corners.",
       "monthlyPrice": 8500,
       "amenities": [
         "High-Speed Fiber Wi-Fi",
