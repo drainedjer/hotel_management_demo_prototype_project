@@ -57,8 +57,8 @@ async function loadAll() {
 async function startShell() {
   await loadAll();
   app.innerHTML = `<div class="shell"><aside class="side" id="side"><a class="logo" href="/">Haven<span>Stay</span></a>
-    ${NAV.filter(navAllowed).map((n) => `<button data-go="${n[0]}">${n[1]} ${n[2]}</button>`).join('')}
-    <button data-go="__site"> Public site</button></aside>
+   ${NAV.filter(navAllowed).map((n) => `<button data-go="${n[0]}">${n[1]}</button>`).join('')}
+    <button data-go="__site">Public site</button></aside>
     <div class="main"><div class="top no-print"><button class="btn ghost sm menu-btn" id="menu">☰</button>
       <strong id="title"></strong><div class="who"><span class="badge b-info">${esc(user.role)}</span><span>${esc(user.fullName)}</span>
       ${user.role !== 'staff' ? '<button class="btn ghost sm" id="reset">Reset demo data</button>' : ''}<button class="btn ghost sm" id="logout">Log out</button></div></div>
@@ -82,7 +82,7 @@ function go(name) {
   section = name;
   charts.forEach((c) => c.destroy()); charts = [];
   $$('[data-go]').forEach((b) => b.classList.toggle('on', b.dataset.go === name));
-  $('#title').textContent = (NAV.find((n) => n[0] === name) || [])[2] || '';
+ $('#title').textContent = (NAV.find((n) => n[0] === name) || [])[1] || '';
   const view = $('#view');
   if (name === 'dashboard') return renderDashboard(view);
   if (name === 'reports') return renderReports(view);
