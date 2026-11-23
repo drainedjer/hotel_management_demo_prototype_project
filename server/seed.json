@@ -106,6 +106,8 @@
 "latitude": 13.7822,
 "longitude": 121.0687,
       "description": "Fully furnished private studio suites along Jose P. Laurel Highway with warm oak flooring, full-height sunlit windows, ergonomic workspaces, and ensuite bathrooms. Ideal for solo residents seeking quiet focus and easy jeepney access across Batangas City.",
+      "monthlyPrice":22000,
+      "amenities": [
         "High-Speed Fiber Wi-Fi",
         "Air Conditioning",
         "24/7 CCTV & Keycard Access",
