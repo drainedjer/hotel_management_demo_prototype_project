@@ -57,7 +57,7 @@
       ],
       "images": [
         "/images/APT-01.png",
-        "/images/ROOM 1.jpg"
+        "/images/Room-01.jpg"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
@@ -89,7 +89,7 @@
       ],
       "images": [
         "/images/APT-02.png",
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
@@ -121,7 +121,7 @@
       ],
       "images": [
         "/images/APT-03.png",
-        "/images/prop_emerald_residences_1795079065780.jpg"
+        "/images/Room-03.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
@@ -153,7 +153,7 @@
       ],
       "images": [
         "/images/APT-04.png",
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-04.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
@@ -184,7 +184,7 @@
       ],
       "images": [
         "/images/APT-05.png",
-        "/images/prop_oakwood_dormitory_1795079065999.jpg"
+        "/images/Room-05.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
@@ -267,7 +267,7 @@
       "monthlyPrice": 19000,
       "status": "Available",
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/background.png"
       ],
       "description": "Bright 1-bedroom apartment overlooking Salcedo street trees"
     },
