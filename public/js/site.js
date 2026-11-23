@@ -1,8 +1,10 @@
 /* site.js - customer portal: search, cards, map, details modal, application form */
 let map, markerLayer, current = [];
 
-function initMap() {
-  map = L.map('map').setView([13.7819, 121.0671], 11);
+
+ function initMap() {
+  //Alangilan, Batangas City 
+  map = L.map('map').setView([13.7835, 121.0715], 15);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
