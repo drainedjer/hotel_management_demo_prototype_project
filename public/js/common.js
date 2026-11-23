@@ -1,5 +1,5 @@
 /* common.js - helpers shared by both portals (API calls, escaping, formatting, toasts) */
-const TOKEN_KEY = 'havenstay_token';
+const TOKEN_KEY = 'CasaBatangas_token';
 const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const money = (n) => '₱' + Number(n || 0).toLocaleString('en-PH', { maximumFractionDigits: 0 });
 const $ = (sel, root = document) => root.querySelector(sel);
