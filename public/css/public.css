@@ -4,7 +4,7 @@
 .logo{font:800 21px 'Plus Jakarta Sans',sans-serif;color:var(--navy);text-decoration:none}.logo span{color:var(--teal)}
 .nav-links{display:flex;gap:20px;align-items:center}.nav-links a{color:var(--text);text-decoration:none;font-weight:500}
 .nav-links a.btn{color:#fff}.burger{display:none}
-.hero{background:linear-gradient(rgba(15,46,46,.72),rgba(15,46,46,.78)),url('/images/hero_modern_apartments_1795079065543.jpg') center/cover;color:#fff;padding:70px 0 90px}
+.hero{background:linear-gradient(rgba(15,46,46,.72),rgba(15,46,46,.78)),url('/images/background.png') center/cover;color:#fff;padding:70px 0 90px}
 .hero h1{font-size:clamp(30px,5vw,50px);max-width:700px}.hero p{max-width:560px;opacity:.9;font-size:18px}
 .search{background:#fff;color:var(--text);border-radius:var(--r);padding:16px;margin-top:26px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr auto;gap:10px;align-items:end;box-shadow:var(--shadow)}
 .search .field{margin:0}.checks{display:flex;gap:16px;align-items:center;margin-top:10px;font-size:14px;color:#fff}.checks input{width:auto}
