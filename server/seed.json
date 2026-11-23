@@ -877,111 +877,101 @@
       "id": 1,
       "propertyId": 1,
       "category": "Electricity",
-      "description": "Common hallway & elevator Meralco bill (Aug)",
-      "amount": 5800,
+      "description": "Common hallway & security lighting bill (Aug)",
+      "amount": 2400,
       "expenseDate": "2026-08-12",
       "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-0801",
-      "createdAt": "2026-08-12T10:00:00.000Z"
+      "receiptReference": "EXP-2026-0801"
     },
     {
       "id": 2,
       "propertyId": 2,
       "category": "Internet",
-      "description": "Dual-fiber 500Mbps student Wi-Fi (Sep)",
-      "amount": 4500,
+      "description": "Fiber 300Mbps student Wi-Fi (Sep)",
+      "amount": 2000,
       "expenseDate": "2026-09-05",
       "paymentMethod": "GCash",
-      "receiptReference": "EXP-2026-0901",
-      "createdAt": "2026-09-05T10:00:00.000Z"
+      "receiptReference": "EXP-2026-0901"
     },
     {
       "id": 3,
       "propertyId": 3,
       "category": "Employee Salary",
-      "description": "Front desk & caretaker monthly payroll (Sep)",
-      "amount": 14000,
+      "description": "Caretaker monthly allowance (Sep)",
+      "amount": 6000,
       "expenseDate": "2026-09-30",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-0902",
-      "createdAt": "2026-09-30T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-0902"
     },
     {
       "id": 4,
       "propertyId": 1,
       "category": "Water",
-      "description": "Manila Water bulk building meter (Oct)",
-      "amount": 3900,
+      "description": "Building water utility bill (Oct)",
+      "amount": 1500,
       "expenseDate": "2026-10-09",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1001",
-      "createdAt": "2026-10-09T10:00:00.000Z"
+      "paymentMethod": "GCash",
+      "receiptReference": "EXP-2026-1001"
     },
     {
       "id": 5,
       "propertyId": 3,
       "category": "Employee Salary",
-      "description": "Front desk & caretaker monthly payroll (Oct)",
-      "amount": 14000,
+      "description": "Caretaker monthly allowance (Oct)",
+      "amount": 6000,
       "expenseDate": "2026-10-30",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1002",
-      "createdAt": "2026-10-30T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-1002"
     },
     {
       "id": 6,
       "propertyId": 1,
       "category": "Electricity",
       "description": "Common hallway & security lighting bill (Nov)",
-      "amount": 6400,
+      "amount": 2600,
       "expenseDate": "2026-11-06",
       "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1101",
-      "createdAt": "2026-11-06T10:00:00.000Z"
+      "receiptReference": "EXP-2026-1101"
     },
     {
       "id": 7,
       "propertyId": 2,
       "category": "Internet",
-      "description": "Dual-fiber 500Mbps student Wi-Fi (Nov)",
-      "amount": 4500,
+      "description": "Fiber 300Mbps student Wi-Fi (Nov)",
+      "amount": 2000,
       "expenseDate": "2026-11-04",
       "paymentMethod": "GCash",
-      "receiptReference": "EXP-2026-1102",
-      "createdAt": "2026-11-04T10:00:00.000Z"
+      "receiptReference": "EXP-2026-1102"
     },
     {
       "id": 8,
       "propertyId": 3,
       "category": "Employee Salary",
-      "description": "Building receptionist & maintenance payroll (Nov)",
-      "amount": 14000,
+      "description": "Caretaker & maintenance allowance (Nov)",
+      "amount": 6000,
       "expenseDate": "2026-11-15",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1103",
-      "createdAt": "2026-11-15T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-1103"
     },
     {
       "id": 9,
       "propertyId": 4,
       "category": "Repairs",
-      "description": "Room M-204 split-type AC compressor repair",
-      "amount": 3200,
+      "description": "Room M-204 aircon cleaning & minor repair",
+      "amount": 1500,
       "expenseDate": "2026-11-10",
       "paymentMethod": "Cash",
-      "receiptReference": "EXP-2026-1104",
-      "createdAt": "2026-11-10T10:00:00.000Z"
+      "receiptReference": "EXP-2026-1104"
     },
     {
       "id": 10,
       "propertyId": 5,
       "category": "Cleaning",
-      "description": "Deep sanitization & hallway cleaning supplies",
-      "amount": 2400,
+      "description": "Hallway sanitization & cleaning supplies",
+      "amount": 1200,
       "expenseDate": "2026-11-18",
-      "paymentMethod": "Maya",
-      "receiptReference": "EXP-2026-1105",
-      "createdAt": "2026-11-18T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-1105"
     }
   ],
   "counters": {
