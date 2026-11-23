@@ -3,7 +3,7 @@
     {
       "id": 1,
       "fullName": "Lance Caringal",
-      "email": "owner@havenstay.demo",
+      "email": "owner@casa-bat.com",
       "passwordHash": "$2b$10$kxCW3IHAOqzrwGAJ90fju.EKBC21xkIUCTKPIHjeaPWgTMokeNyIa",
       "role": "owner",
       "phone": "+63 917 555 0101",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "fullName": "Jeremy Cedrick Rodriguez",
-      "email": "admin@havenstay.demo",
+      "email": "admin@casa-bat.com",
       "passwordHash": "$2b$10$RwBBLpQx4m7pB9eELupfZuyXO4NIGZ.CT4vLV/m./Mbg1w6aS/.bq",
       "role": "admin",
       "phone": "+63 917 555 0102",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "fullName": "Christian Jacob Semira",
-      "email": "staff@havenstay.demo",
+      "email": "staff@casa-bat.com",
       "passwordHash": "$2b$10$xeCKh.bf9Cs2/FHxpM.LBOcuvSTT0wLO8FbZdrl2FQaRubrry/Wnu",
       "role": "staff",
       "phone": "+63 917 555 0103",
@@ -35,14 +35,14 @@
     {
       "id": 1,
       "ownerId": 1,
-      "name": "Emerald Crest Residences",
+      "name": "Neptune St. (near Alfamart)",
       "propertyType": "Apartment",
-      "address": "42 Salcedo Street, Legazpi Village",
-      "city": "Makati City",
-      "latitude": 14.5547,
-      "longitude": 121.0185,
-      "description": "Sunlit mid-rise urban apartments tailored for young professionals and graduate students. Features private glass balconies, 24/7 concierge security, and fiber-ready study corners steps from Legazpi Active Park.",
-      "monthlyPrice": 18500,
+      "address": "Neptune St. (near Alfamart), Golden Country Homes, Alangilan",
+      "city": "Batangas City",
+      "latitude": 13.7851,
+      "longitude": 121.0721,
+      "description": "Sunlit mid-rise urban apartments along Neptune Street in Golden Country Homes, right near Alfamart and just minutes from BatStateU Alangilan. Features private glass balconies, 24/7 concierge security, and fiber-ready study corners.",
+      "monthlyPrice": 8500,
       "amenities": [
         "High-Speed Fiber Wi-Fi",
         "24/7 CCTV & Keycard Access",
@@ -56,25 +56,25 @@
         "Overnight guests must register at the reception desk"
       ],
       "images": [
-        "/images/prop_emerald_residences_1795079065780.jpg",
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/APT-01.png",
+        "/images/Room-01.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "leasing@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-01T09:00:00.000Z"
     },
     {
       "id": 2,
       "ownerId": 1,
-      "name": "Oakwood University Dormitory",
+      "name": "Golden Country Homes, Alangilan",
       "propertyType": "Dormitory",
-      "address": "118 Taft Avenue, Malate",
-      "city": "Manila",
-      "latitude": 14.5682,
-      "longitude": 120.9936,
-      "description": "Purpose-built university student dormitory located two blocks from major campus gates. Designed with dedicated quiet study lounges, individual oak desks, personal lockers, and biometric gate access.",
-      "monthlyPrice": 6500,
+      "address": "Mercury St., Golden Country Homes, Alangilan",
+      "city": "Batangas City",
+      "latitude": 13.7868,
+      "longitude": 121.0726,
+      "description": "Purpose-built university student dormitory in Golden Country Homes located just a short walk from Batangas State University (BatStateU) Alangilan campus gates. Designed with dedicated quiet study lounges, individual oak desks, personal lockers, and biometric gate access.",
+      "monthlyPrice": 2800,
       "amenities": [
         "High-Speed Fiber Wi-Fi",
         "Study Lounge",
@@ -88,25 +88,25 @@
         "Keep shared study lounge and pantry clean after use"
       ],
       "images": [
-        "/images/prop_oakwood_dormitory_1795079065999.jpg",
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/APT-02.png",
+        "/images/Room-02.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "dorm@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-04T09:00:00.000Z"
     },
     {
       "id": 3,
       "ownerId": 1,
-      "name": "Harborview Studio Suites",
+      "name": "Alangilan Proper / National Highway",
       "propertyType": "Studio Unit",
-      "address": "88 Burgos Circle, Bonifacio Global City",
-      "city": "Taguig City",
-      "latitude": 14.5515,
-      "longitude": 121.0451,
-      "description": "Fully furnished private studio suites with warm oak flooring, full-height sunlit windows, ergonomic workspaces, and ensuite bathrooms. Ideal for solo residents seeking quiet focus and central access.",
-      "monthlyPrice": 22000,
+      "address": "Jose P. Laurel Hwy, Brgy. Alangilan",
+      "city": "Batangas City",
+      "latitude": 13.7822,
+      "longitude": 121.0687,
+      "description": "Fully furnished private studio suites along Jose P. Laurel Highway with warm oak flooring, full-height sunlit windows, ergonomic workspaces, and ensuite bathrooms. Ideal for solo residents seeking quiet focus and easy jeepney access across Batangas City.",
+      "monthlyPrice": 9500,
       "amenities": [
         "High-Speed Fiber Wi-Fi",
         "Air Conditioning",
@@ -120,25 +120,25 @@
         "Observe building waste segregation schedule"
       ],
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg",
-        "/images/prop_emerald_residences_1795079065780.jpg"
+        "/images/APT-03.png",
+        "/images/Room-03.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "studios@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-10T09:00:00.000Z"
     },
     {
       "id": 4,
       "ownerId": 1,
-      "name": "Maple Grove Boarding House",
+      "name": "South Alangilan / Villa Josefa area",
       "propertyType": "Boarding House",
-      "address": "15 Maginhawa Street, Teachers Village",
-      "city": "Quezon City",
-      "latitude": 14.6461,
-      "longitude": 121.0617,
-      "description": "Warm residential boarding house near Diliman campus offering private rooms and twin-sharing suites around a bright communal kitchen, dining table, and sunlit lounge.",
-      "monthlyPrice": 5800,
+      "address": "South Alangilan / Villa Josefa area",
+      "city": "Batangas City",
+      "latitude": 13.7805,
+      "longitude": 121.0708,
+      "description": "Warm residential boarding house in the Villa Josefa area of South Alangilan offering private rooms and twin-sharing suites around a bright communal kitchen, dining table, and sunlit lounge near local eateries and campus routes.",
+      "monthlyPrice": 2500,
       "amenities": [
         "High-Speed Fiber Wi-Fi",
         "Shared Kitchen",
@@ -152,25 +152,25 @@
         "Visitors welcome in common lounge until 9:00 PM"
       ],
       "images": [
-        "/images/prop_maple_boarding_1795079065766.jpg",
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/APT-04.png",
+        "/images/Room-04.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "maple@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-15T09:00:00.000Z"
     },
     {
       "id": 5,
       "ownerId": 1,
-      "name": "Cedar Hall Private Rooms",
+      "name": "Sitio Ibaba, South Alangilan",
       "propertyType": "Private Room",
-      "address": "204 Katipunan Avenue, Loyola Heights",
-      "city": "Quezon City",
-      "latitude": 14.6395,
-      "longitude": 121.0743,
-      "description": "Quiet private furnished single bedrooms along Katipunan Avenue with built-in bookshelves, natural daylight windows, and quick access to university libraries and LRT stations.",
-      "monthlyPrice": 9500,
+      "address": "Sitio Ibaba, Brgy. Alangilan",
+      "city": "Batangas City",
+      "latitude": 13.7805,
+      "longitude": 121.0715,
+      "description": "Quiet private furnished single bedrooms in Sitio Ibaba, Alangilan with built-in bookshelves, natural daylight windows, and quick tricycle or walking access to BatStateU Alangilan and nearby commercial hubs.",
+      "monthlyPrice": 4500,
       "amenities": [
         "High-Speed Fiber Wi-Fi",
         "Air Conditioning",
@@ -183,12 +183,12 @@
         "Report plumbing or electrical issues promptly via portal"
       ],
       "images": [
-        "/images/room_private_studio_1795079066609.jpg",
-        "/images/prop_oakwood_dormitory_1795079065999.jpg"
+        "/images/APT-05.png",
+        "/images/Room-05.png"
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "cedar@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-03-01T09:00:00.000Z"
     }
   ],
@@ -196,31 +196,31 @@
     {
       "id": 1,
       "propertyId": 1,
-      "name": "Tower A — Salcedo Wing",
-      "floors": 6,
+      "name": "Neptune St. (near Alfamart)",
+      "floors": 3,
       "description": "Primary mid-rise apartment wing with balcony units",
       "createdAt": "2026-02-01T09:30:00.000Z"
     },
     {
       "id": 2,
       "propertyId": 2,
-      "name": "North Academic Hall",
-      "floors": 4,
+      "name": "Golden Country Homes, Alangilan",
+      "floors": 2,
       "description": "Student dormitory suites and 2nd-floor study hall",
       "createdAt": "2026-02-04T09:30:00.000Z"
     },
     {
       "id": 3,
       "propertyId": 3,
-      "name": "Harborview Main Block",
-      "floors": 8,
+      "name": "Alangilan Proper / National Highway",
+      "floors": 2,
       "description": "Furnished studio suites tower",
       "createdAt": "2026-02-10T09:30:00.000Z"
     },
     {
       "id": 4,
       "propertyId": 4,
-      "name": "Maple Main House",
+      "name": "South Alaniglan / Villa Josefa area",
       "floors": 3,
       "description": "Boarding house wing with shared kitchen",
       "createdAt": "2026-02-15T09:30:00.000Z"
@@ -228,8 +228,8 @@
     {
       "id": 5,
       "propertyId": 5,
-      "name": "Cedar Annex",
-      "floors": 3,
+      "name": "Sitio Ibaba, South Alangilan",
+      "floors": 2,
       "description": "Quiet single-occupancy rooms",
       "createdAt": "2026-03-01T09:30:00.000Z"
     }
@@ -239,17 +239,17 @@
       "id": 1,
       "propertyId": 1,
       "buildingId": 1,
-      "buildingName": "Tower A — Salcedo Wing",
+      "buildingName": "Neptune St. (near Alfamart)",
       "floorNumber": 2,
-      "roomNumber": "A-201",
+      "roomNumber": "A-101",
       "roomType": "Apartment",
       "capacity": 2,
       "occupiedBeds": 1,
       "availableBeds": 1,
-      "monthlyPrice": 18500,
+      "monthlyPrice": 8500,
       "status": "Available",
       "images": [
-        "/images/prop_emerald_residences_1795079065780.jpg"
+        "/images/Room-01.png"
       ],
       "description": "Corner 1-bedroom apartment with glass balcony and full kitchen"
     },
@@ -257,17 +257,17 @@
       "id": 2,
       "propertyId": 1,
       "buildingId": 1,
-      "buildingName": "Tower A — Salcedo Wing",
+      "buildingName": "Neptune St. (near Alfamart)",
       "floorNumber": 3,
-      "roomNumber": "A-302",
+      "roomNumber": "A-102",
       "roomType": "Apartment",
       "capacity": 2,
       "occupiedBeds": 0,
       "availableBeds": 2,
-      "monthlyPrice": 19000,
+      "monthlyPrice": 8500,
       "status": "Available",
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/Room-01.png"
       ],
       "description": "Bright 1-bedroom apartment overlooking Salcedo street trees"
     },
@@ -275,17 +275,17 @@
       "id": 3,
       "propertyId": 2,
       "buildingId": 2,
-      "buildingName": "North Academic Hall",
+      "buildingName": "Golden Country Homes, Alangilan",
       "floorNumber": 2,
       "roomNumber": "D-201",
       "roomType": "Dormitory",
       "capacity": 4,
       "occupiedBeds": 2,
       "availableBeds": 2,
-      "monthlyPrice": 6500,
+      "monthlyPrice": 2800,
       "status": "Available",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png"
       ],
       "description": "4-bed student suite with individual study desks, lamps, and lockers"
     },
@@ -293,17 +293,17 @@
       "id": 4,
       "propertyId": 2,
       "buildingId": 2,
-      "buildingName": "North Academic Hall",
+      "buildingName": "Golden Country Homes, Alangilan",
       "floorNumber": 2,
       "roomNumber": "D-202",
       "roomType": "Dormitory",
       "capacity": 4,
       "occupiedBeds": 1,
       "availableBeds": 3,
-      "monthlyPrice": 6500,
+      "monthlyPrice": 2800,
       "status": "Available",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png"
       ],
       "description": "4-bed courtyard-facing dormitory room with ensuite shower"
     },
@@ -311,17 +311,17 @@
       "id": 5,
       "propertyId": 2,
       "buildingId": 2,
-      "buildingName": "North Academic Hall",
+      "buildingName": "Golden Country Homes, Alangilan",
       "floorNumber": 3,
-      "roomNumber": "D-301",
-      "roomType": "Private Room",
+      "roomNumber": "D-203",
+      "roomType": "Private",
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 9800,
+      "monthlyPrice": 3000,
       "status": "Reserved",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png.jpg"
       ],
       "description": "Single occupancy private dorm room near study commons"
     },
@@ -329,17 +329,17 @@
       "id": 6,
       "propertyId": 3,
       "buildingId": 3,
-      "buildingName": "Harborview Main Block",
+      "buildingName": "Alangilan Proper / National Highway",
       "floorNumber": 5,
-      "roomNumber": "S-501",
+      "roomNumber": "S-301",
       "roomType": "Studio Unit",
       "capacity": 1,
       "occupiedBeds": 1,
       "availableBeds": 0,
-      "monthlyPrice": 22000,
+      "monthlyPrice": 9500,
       "status": "Occupied",
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/Room-03.png"
       ],
       "description": "Furnished executive studio with solid oak desk and queen bed"
     },
@@ -347,17 +347,17 @@
       "id": 7,
       "propertyId": 3,
       "buildingId": 3,
-      "buildingName": "Harborview Main Block",
+      "buildingName": "Alangilan Proper / National Highway",
       "floorNumber": 6,
-      "roomNumber": "S-604",
+      "roomNumber": "S-302",
       "roomType": "Studio Unit",
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 22500,
+      "monthlyPrice": 9500,
       "status": "Reserved",
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/Room-03.png"
       ],
       "description": "High-floor sunlit studio suite with kitchenette and wardrobe"
     },
@@ -365,17 +365,17 @@
       "id": 8,
       "propertyId": 4,
       "buildingId": 4,
-      "buildingName": "Maple Main House",
+      "buildingName": "South Alaniglan / Villa Josefa area",
       "floorNumber": 1,
-      "roomNumber": "M-101",
+      "roomNumber": "M-401",
       "roomType": "Shared Room",
       "capacity": 2,
       "occupiedBeds": 1,
       "availableBeds": 1,
-      "monthlyPrice": 5800,
+      "monthlyPrice": 2500,
       "status": "Available",
       "images": [
-        "/images/prop_maple_boarding_1795079065766.jpg"
+        "/images/Room-04.png"
       ],
       "description": "Twin-sharing room steps from shared kitchen and dining hall"
     },
@@ -383,17 +383,17 @@
       "id": 9,
       "propertyId": 4,
       "buildingId": 4,
-      "buildingName": "Maple Main House",
+      "buildingName": "South Alaniglan / Villa Josefa area",
       "floorNumber": 2,
-      "roomNumber": "M-204",
+      "roomNumber": "M-402",
       "roomType": "Private Room",
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 8200,
+      "monthlyPrice": 3000,
       "status": "Maintenance",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-04.png"
       ],
       "description": "Private boarding room currently undergoing AC servicing"
     },
@@ -401,17 +401,17 @@
       "id": 10,
       "propertyId": 5,
       "buildingId": 5,
-      "buildingName": "Cedar Annex",
+      "buildingName": "Sitio Ibaba, South Alangilan",
       "floorNumber": 2,
-      "roomNumber": "C-202",
+      "roomNumber": "C-501",
       "roomType": "Private Room",
       "capacity": 1,
       "occupiedBeds": 1,
       "availableBeds": 0,
-      "monthlyPrice": 9500,
+      "monthlyPrice": 4500,
       "status": "Occupied",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-05.png"
       ],
       "description": "Furnished single study room with built-in bookshelf"
     },
@@ -419,17 +419,17 @@
       "id": 11,
       "propertyId": 5,
       "buildingId": 5,
-      "buildingName": "Cedar Annex",
+      "buildingName": "Sitio Ibaba, South Alangilan",
       "floorNumber": 3,
-      "roomNumber": "C-305",
+      "roomNumber": "C-502",
       "roomType": "Private Room",
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 9500,
+      "monthlyPrice": 4500,
       "status": "Available",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-05.png"
       ],
       "description": "Top-floor quiet single room overlooking campus trees"
     }
@@ -446,7 +446,7 @@
       "roomId": 1,
       "moveInDate": "2026-06-01",
       "moveOutDate": null,
-      "monthlyRent": 18500,
+      "monthlyRent": 8500,
       "securityDeposit": 37000,
       "status": "Active",
       "createdAt": "2026-06-01T08:00:00.000Z"
@@ -462,7 +462,7 @@
       "roomId": 3,
       "moveInDate": "2026-07-15",
       "moveOutDate": null,
-      "monthlyRent": 6500,
+      "monthlyRent": 2800,
       "securityDeposit": 6500,
       "status": "Active",
       "createdAt": "2026-07-15T08:00:00.000Z"
@@ -478,7 +478,7 @@
       "roomId": 4,
       "moveInDate": "2026-07-15",
       "moveOutDate": null,
-      "monthlyRent": 6500,
+      "monthlyRent": 2800,
       "securityDeposit": 6500,
       "status": "Active",
       "createdAt": "2026-07-15T08:00:00.000Z"
@@ -494,7 +494,7 @@
       "roomId": 6,
       "moveInDate": "2026-06-15",
       "moveOutDate": null,
-      "monthlyRent": 22000,
+      "monthlyRent": 9500,
       "securityDeposit": 44000,
       "status": "Active",
       "createdAt": "2026-06-15T08:00:00.000Z"
@@ -510,7 +510,7 @@
       "roomId": 8,
       "moveInDate": "2026-08-01",
       "moveOutDate": null,
-      "monthlyRent": 5800,
+      "monthlyRent": 2500,
       "securityDeposit": 5800,
       "status": "Active",
       "createdAt": "2026-08-01T08:00:00.000Z"
@@ -526,7 +526,7 @@
       "roomId": 10,
       "moveInDate": "2026-08-10",
       "moveOutDate": null,
-      "monthlyRent": 9500,
+      "monthlyRent": 4500,
       "securityDeposit": 19000,
       "status": "Active",
       "createdAt": "2026-08-10T08:00:00.000Z"
@@ -542,7 +542,7 @@
       "roomId": 3,
       "moveInDate": "2026-09-01",
       "moveOutDate": null,
-      "monthlyRent": 6500,
+      "monthlyRent": 2800,
       "securityDeposit": 6500,
       "status": "Active",
       "createdAt": "2026-09-01T08:00:00.000Z"
@@ -558,7 +558,7 @@
       "roomId": null,
       "moveInDate": "2026-01-15",
       "moveOutDate": "2026-07-31",
-      "monthlyRent": 18500,
+      "monthlyRent": 8500,
       "securityDeposit": 37000,
       "status": "Former Tenant",
       "createdAt": "2026-01-15T08:00:00.000Z"
@@ -639,8 +639,8 @@
       "billingMonth": "2026-08",
       "dueDate": "2026-08-05",
       "paymentDate": "2026-08-04",
-      "amountDue": 18500,
-      "amountPaid": 18500,
+      "amountDue": 8500,
+      "amountPaid": 8500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -655,8 +655,8 @@
       "billingMonth": "2026-08",
       "dueDate": "2026-08-05",
       "paymentDate": "2026-08-03",
-      "amountDue": 22000,
-      "amountPaid": 22000,
+      "amountDue": 9500,
+      "amountPaid": 9500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -671,8 +671,8 @@
       "billingMonth": "2026-09",
       "dueDate": "2026-09-05",
       "paymentDate": "2026-09-04",
-      "amountDue": 18500,
-      "amountPaid": 18500,
+      "amountDue": 8500,
+      "amountPaid": 8500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -687,8 +687,8 @@
       "billingMonth": "2026-09",
       "dueDate": "2026-09-05",
       "paymentDate": "2026-09-05",
-      "amountDue": 6500,
-      "amountPaid": 6500,
+      "amountDue": 2800,
+      "amountPaid": 2800,
       "remainingBalance": 0,
       "paymentMethod": "GCash",
       "status": "Paid",
@@ -703,8 +703,8 @@
       "billingMonth": "2026-09",
       "dueDate": "2026-09-05",
       "paymentDate": "2026-09-02",
-      "amountDue": 22000,
-      "amountPaid": 22000,
+      "amountDue": 9500,
+      "amountPaid": 9500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -719,8 +719,8 @@
       "billingMonth": "2026-10",
       "dueDate": "2026-10-05",
       "paymentDate": "2026-10-04",
-      "amountDue": 18500,
-      "amountPaid": 18500,
+      "amountDue": 8500,
+      "amountPaid": 8500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -735,8 +735,8 @@
       "billingMonth": "2026-10",
       "dueDate": "2026-10-05",
       "paymentDate": "2026-10-03",
-      "amountDue": 22000,
-      "amountPaid": 22000,
+      "amountDue": 9500,
+      "amountPaid": 9500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -751,8 +751,8 @@
       "billingMonth": "2026-10",
       "dueDate": "2026-10-05",
       "paymentDate": "2026-10-05",
-      "amountDue": 9500,
-      "amountPaid": 9500,
+      "amountDue": 4500,
+      "amountPaid": 4500,
       "remainingBalance": 0,
       "paymentMethod": "GCash",
       "status": "Paid",
@@ -767,8 +767,8 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-05",
       "paymentDate": "2026-11-03",
-      "amountDue": 18500,
-      "amountPaid": 18500,
+      "amountDue": 8500,
+      "amountPaid": 8500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -783,8 +783,8 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-05",
       "paymentDate": "2026-11-04",
-      "amountDue": 6500,
-      "amountPaid": 6500,
+      "amountDue": 2800,
+      "amountPaid": 2800,
       "remainingBalance": 0,
       "paymentMethod": "GCash",
       "status": "Paid",
@@ -799,7 +799,7 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-05",
       "paymentDate": "2026-11-07",
-      "amountDue": 6500,
+      "amountDue": 2800,
       "amountPaid": 4000,
       "remainingBalance": 2500,
       "paymentMethod": "Maya",
@@ -815,8 +815,8 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-05",
       "paymentDate": "2026-11-02",
-      "amountDue": 22000,
-      "amountPaid": 22000,
+      "amountDue": 9500,
+      "amountPaid": 9500,
       "remainingBalance": 0,
       "paymentMethod": "Bank Transfer",
       "status": "Paid",
@@ -831,9 +831,9 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-05",
       "paymentDate": null,
-      "amountDue": 5800,
+      "amountDue": 2500,
       "amountPaid": 0,
-      "remainingBalance": 5800,
+      "remainingBalance": 2500,
       "paymentMethod": "Cash",
       "status": "Overdue",
       "referenceNumber": "TXN-202611-005",
@@ -847,8 +847,8 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-18",
       "paymentDate": "2026-11-17",
-      "amountDue": 9500,
-      "amountPaid": 9500,
+      "amountDue": 4500,
+      "amountPaid": 4500,
       "remainingBalance": 0,
       "paymentMethod": "GCash",
       "status": "Paid",
@@ -863,9 +863,9 @@
       "billingMonth": "2026-11",
       "dueDate": "2026-11-25",
       "paymentDate": null,
-      "amountDue": 6500,
+      "amountDue": 2800,
       "amountPaid": 0,
-      "remainingBalance": 6500,
+      "remainingBalance": 2800,
       "paymentMethod": "Cash",
       "status": "Pending",
       "referenceNumber": "TXN-202611-007",
@@ -877,111 +877,101 @@
       "id": 1,
       "propertyId": 1,
       "category": "Electricity",
-      "description": "Common hallway & elevator Meralco bill (Aug)",
-      "amount": 5800,
+      "description": "Common hallway & security lighting bill (Aug)",
+      "amount": 2400,
       "expenseDate": "2026-08-12",
       "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-0801",
-      "createdAt": "2026-08-12T10:00:00.000Z"
+      "receiptReference": "EXP-2026-0801"
     },
     {
       "id": 2,
       "propertyId": 2,
       "category": "Internet",
-      "description": "Dual-fiber 500Mbps student Wi-Fi (Sep)",
-      "amount": 4500,
+      "description": "Fiber 300Mbps student Wi-Fi (Sep)",
+      "amount": 2000,
       "expenseDate": "2026-09-05",
       "paymentMethod": "GCash",
-      "receiptReference": "EXP-2026-0901",
-      "createdAt": "2026-09-05T10:00:00.000Z"
+      "receiptReference": "EXP-2026-0901"
     },
     {
       "id": 3,
       "propertyId": 3,
       "category": "Employee Salary",
-      "description": "Front desk & caretaker monthly payroll (Sep)",
-      "amount": 14000,
+      "description": "Caretaker monthly allowance (Sep)",
+      "amount": 6000,
       "expenseDate": "2026-09-30",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-0902",
-      "createdAt": "2026-09-30T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-0902"
     },
     {
       "id": 4,
       "propertyId": 1,
       "category": "Water",
-      "description": "Manila Water bulk building meter (Oct)",
-      "amount": 3900,
+      "description": "Building water utility bill (Oct)",
+      "amount": 1500,
       "expenseDate": "2026-10-09",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1001",
-      "createdAt": "2026-10-09T10:00:00.000Z"
+      "paymentMethod": "GCash",
+      "receiptReference": "EXP-2026-1001"
     },
     {
       "id": 5,
       "propertyId": 3,
       "category": "Employee Salary",
-      "description": "Front desk & caretaker monthly payroll (Oct)",
-      "amount": 14000,
+      "description": "Caretaker monthly allowance (Oct)",
+      "amount": 6000,
       "expenseDate": "2026-10-30",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1002",
-      "createdAt": "2026-10-30T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-1002"
     },
     {
       "id": 6,
       "propertyId": 1,
       "category": "Electricity",
       "description": "Common hallway & security lighting bill (Nov)",
-      "amount": 6400,
+      "amount": 2600,
       "expenseDate": "2026-11-06",
       "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1101",
-      "createdAt": "2026-11-06T10:00:00.000Z"
+      "receiptReference": "EXP-2026-1101"
     },
     {
       "id": 7,
       "propertyId": 2,
       "category": "Internet",
-      "description": "Dual-fiber 500Mbps student Wi-Fi (Nov)",
-      "amount": 4500,
+      "description": "Fiber 300Mbps student Wi-Fi (Nov)",
+      "amount": 2000,
       "expenseDate": "2026-11-04",
       "paymentMethod": "GCash",
-      "receiptReference": "EXP-2026-1102",
-      "createdAt": "2026-11-04T10:00:00.000Z"
+      "receiptReference": "EXP-2026-1102"
     },
     {
       "id": 8,
       "propertyId": 3,
       "category": "Employee Salary",
-      "description": "Building receptionist & maintenance payroll (Nov)",
-      "amount": 14000,
+      "description": "Caretaker & maintenance allowance (Nov)",
+      "amount": 6000,
       "expenseDate": "2026-11-15",
-      "paymentMethod": "Bank Transfer",
-      "receiptReference": "EXP-2026-1103",
-      "createdAt": "2026-11-15T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-1103"
     },
     {
       "id": 9,
       "propertyId": 4,
       "category": "Repairs",
-      "description": "Room M-204 split-type AC compressor repair",
-      "amount": 3200,
+      "description": "Room M-204 aircon cleaning & minor repair",
+      "amount": 1500,
       "expenseDate": "2026-11-10",
       "paymentMethod": "Cash",
-      "receiptReference": "EXP-2026-1104",
-      "createdAt": "2026-11-10T10:00:00.000Z"
+      "receiptReference": "EXP-2026-1104"
     },
     {
       "id": 10,
       "propertyId": 5,
       "category": "Cleaning",
-      "description": "Deep sanitization & hallway cleaning supplies",
-      "amount": 2400,
+      "description": "Hallway sanitization & cleaning supplies",
+      "amount": 1200,
       "expenseDate": "2026-11-18",
-      "paymentMethod": "Maya",
-      "receiptReference": "EXP-2026-1105",
-      "createdAt": "2026-11-18T10:00:00.000Z"
+      "paymentMethod": "Cash",
+      "receiptReference": "EXP-2026-1105"
     }
   ],
   "counters": {
