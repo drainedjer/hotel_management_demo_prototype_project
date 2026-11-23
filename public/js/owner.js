@@ -45,7 +45,7 @@ const NAV = [
   ['rooms', 'Rooms'], ['tenants', 'Tenants'], ['applications', 'Applications'], ['payments', 'Payments'],
   ['expenses', 'Expenses'], ['reports', 'Reports'], ['users', 'Users', 'admin'],
 ];
-const navAllowed = (n) => !n[3] || (n[3] === 'owner' ? user.role !== 'staff' : user.role === n[3]);
+const navAllowed = (n) => !n[2] || (n[2] === 'owner' ? user.role !== 'staff' : user.role === n[2]);
 
 async function loadAll() {
   const keys = ['properties', 'buildings', 'rooms', 'tenants', 'applications', 'payments', 'expenses'];
