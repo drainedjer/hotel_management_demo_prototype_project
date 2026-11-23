@@ -3,7 +3,7 @@
     {
       "id": 1,
       "fullName": "Lance Caringal",
-      "email": "owner@havenstay.demo",
+      "email": "owner@casa-bat.demo",
       "passwordHash": "$2b$10$kxCW3IHAOqzrwGAJ90fju.EKBC21xkIUCTKPIHjeaPWgTMokeNyIa",
       "role": "owner",
       "phone": "+63 917 555 0101",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "fullName": "Jeremy Cedrick Rodriguez",
-      "email": "admin@havenstay.demo",
+      "email": "admin@casa-.demo",
       "passwordHash": "$2b$10$RwBBLpQx4m7pB9eELupfZuyXO4NIGZ.CT4vLV/m./Mbg1w6aS/.bq",
       "role": "admin",
       "phone": "+63 917 555 0102",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "fullName": "Christian Jacob Semira",
-      "email": "staff@havenstay.demo",
+      "email": "staff@casa-bat.demo",
       "passwordHash": "$2b$10$xeCKh.bf9Cs2/FHxpM.LBOcuvSTT0wLO8FbZdrl2FQaRubrry/Wnu",
       "role": "staff",
       "phone": "+63 917 555 0103",
