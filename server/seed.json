@@ -446,7 +446,7 @@
       "roomId": 1,
       "moveInDate": "2026-06-01",
       "moveOutDate": null,
-      "monthlyRent": 18500,
+      "monthlyRent": 8500,
       "securityDeposit": 37000,
       "status": "Active",
       "createdAt": "2026-06-01T08:00:00.000Z"
@@ -462,7 +462,7 @@
       "roomId": 3,
       "moveInDate": "2026-07-15",
       "moveOutDate": null,
-      "monthlyRent": 6500,
+      "monthlyRent": 2800,
       "securityDeposit": 6500,
       "status": "Active",
       "createdAt": "2026-07-15T08:00:00.000Z"
@@ -478,7 +478,7 @@
       "roomId": 4,
       "moveInDate": "2026-07-15",
       "moveOutDate": null,
-      "monthlyRent": 6500,
+      "monthlyRent": 2800,
       "securityDeposit": 6500,
       "status": "Active",
       "createdAt": "2026-07-15T08:00:00.000Z"
@@ -494,7 +494,7 @@
       "roomId": 6,
       "moveInDate": "2026-06-15",
       "moveOutDate": null,
-      "monthlyRent": 22000,
+      "monthlyRent": 9500,
       "securityDeposit": 44000,
       "status": "Active",
       "createdAt": "2026-06-15T08:00:00.000Z"
@@ -510,7 +510,7 @@
       "roomId": 8,
       "moveInDate": "2026-08-01",
       "moveOutDate": null,
-      "monthlyRent": 5800,
+      "monthlyRent": 2500,
       "securityDeposit": 5800,
       "status": "Active",
       "createdAt": "2026-08-01T08:00:00.000Z"
@@ -526,7 +526,7 @@
       "roomId": 10,
       "moveInDate": "2026-08-10",
       "moveOutDate": null,
-      "monthlyRent": 9500,
+      "monthlyRent": 4500,
       "securityDeposit": 19000,
       "status": "Active",
       "createdAt": "2026-08-10T08:00:00.000Z"
@@ -542,7 +542,7 @@
       "roomId": 3,
       "moveInDate": "2026-09-01",
       "moveOutDate": null,
-      "monthlyRent": 6500,
+      "monthlyRent": 2800,
       "securityDeposit": 6500,
       "status": "Active",
       "createdAt": "2026-09-01T08:00:00.000Z"
@@ -558,7 +558,7 @@
       "roomId": null,
       "moveInDate": "2026-01-15",
       "moveOutDate": "2026-07-31",
-      "monthlyRent": 18500,
+      "monthlyRent": 8500,
       "securityDeposit": 37000,
       "status": "Former Tenant",
       "createdAt": "2026-01-15T08:00:00.000Z"
