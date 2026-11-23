@@ -83,7 +83,7 @@ function openApply(p) {
     body.propertyId = p.id;
     try {
       const r = await api('/public/applications', { method: 'POST', body });
-      $('.modal', m).innerHTML = `<h2>Application received 🎉</h2><p>Your reference number:</p><div class="ref">${esc(r.referenceNumber)}</div>
+      $('.modal', m).innerHTML = `<h2>Application Received!</h2><p>Your reference number:</p><div class="ref">${esc(r.referenceNumber)}</div>
         <p class="muted">Status: ${esc(r.status)}. Keep this number; the owner will contact you.</p><button class="btn" data-close>Done</button>`;
     } catch (err) { toast(err.message, true); }
   };
