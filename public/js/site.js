@@ -2,7 +2,7 @@
 let map, markerLayer, current = [];
 
 function initMap() {
-  map = L.map('map').setView([14.59, 121.0], 11);
+  map = L.map('map').setView([13.7819, 121.0671], 11);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
