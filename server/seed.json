@@ -246,7 +246,7 @@
       "capacity": 2,
       "occupiedBeds": 2,
       "availableBeds": 0,
-      "monthlyPrice": 18500,
+      "monthlyPrice": 8500,
       "status": "Occupied",
       "images": [
         "/images/prop_emerald_residences_1795079065780.jpg"
@@ -264,7 +264,7 @@
       "capacity": 2,
       "occupiedBeds": 0,
       "availableBeds": 2,
-      "monthlyPrice": 19000,
+      "monthlyPrice": 8500,
       "status": "Available",
       "images": [
         "/images/background.png"
@@ -282,7 +282,7 @@
       "capacity": 4,
       "occupiedBeds": 2,
       "availableBeds": 2,
-      "monthlyPrice": 6500,
+      "monthlyPrice": 2800,
       "status": "Available",
       "images": [
         "/images/room_private_studio_1795079066609.jpg"
@@ -300,7 +300,7 @@
       "capacity": 4,
       "occupiedBeds": 4,
       "availableBeds": 0,
-      "monthlyPrice": 6500,
+      "monthlyPrice": 2800,
       "status": "Occupied",
       "images": [
         "/images/room_private_studio_1795079066609.jpg"
@@ -318,7 +318,7 @@
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 9800,
+      "monthlyPrice": 3000,
       "status": "Reserved",
       "images": [
         "/images/room_private_studio_1795079066609.jpg"
@@ -336,7 +336,7 @@
       "capacity": 1,
       "occupiedBeds": 1,
       "availableBeds": 0,
-      "monthlyPrice": 22000,
+      "monthlyPrice": 9500,
       "status": "Occupied",
       "images": [
         "/images/prop_harborview_suites_1795079065708.jpg"
@@ -354,7 +354,7 @@
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 22500,
+      "monthlyPrice": 9500,
       "status": "Available",
       "images": [
         "/images/prop_harborview_suites_1795079065708.jpg"
@@ -372,7 +372,7 @@
       "capacity": 2,
       "occupiedBeds": 1,
       "availableBeds": 1,
-      "monthlyPrice": 5800,
+      "monthlyPrice": 2500,
       "status": "Available",
       "images": [
         "/images/prop_maple_boarding_1795079065766.jpg"
@@ -390,7 +390,7 @@
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 8200,
+      "monthlyPrice": 3000,
       "status": "Maintenance",
       "images": [
         "/images/room_private_studio_1795079066609.jpg"
@@ -408,7 +408,7 @@
       "capacity": 1,
       "occupiedBeds": 1,
       "availableBeds": 0,
-      "monthlyPrice": 9500,
+      "monthlyPrice": 4500,
       "status": "Occupied",
       "images": [
         "/images/room_private_studio_1795079066609.jpg"
@@ -426,7 +426,7 @@
       "capacity": 1,
       "occupiedBeds": 0,
       "availableBeds": 1,
-      "monthlyPrice": 9500,
+      "monthlyPrice": 4500,
       "status": "Available",
       "images": [
         "/images/room_private_studio_1795079066609.jpg"
