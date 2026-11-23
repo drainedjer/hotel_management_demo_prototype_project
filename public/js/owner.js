@@ -26,10 +26,6 @@ function showLogin(msg = '') {
     <div class="field"><label>Email</label><input name="email" type="email" required autocomplete="username"></div>
     <div class="field"><label>Password</label><input name="password" type="password" required autocomplete="current-password"></div>
     <button class="btn" style="width:100%;justify-content:center">Log in</button>
-    <b>Demo accounts</b> (click to fill)
-      <button type="button" data-fill="owner@havenstay.demo|Owner123!">Owner · owner@havenstay.demo</button>
-      <but<div class="demo-box">ton type="button" data-fill="admin@havenstay.demo|Admin123!">Admin · admin@havenstay.demo</button>
-      <button type="button" data-fill="staff@havenstay.demo|Staff123!">Staff · staff@havenstay.demo</button></div>
     <p style="text-align:center;margin-bottom:0"><a href="/">← Back to public site</a></p></form></div>`;
   $$('[data-fill]').forEach((b) => (b.onclick = () => {
     const [e, p] = b.dataset.fill.split('|'); $('[name=email]').value = e; $('[name=password]').value = p;
