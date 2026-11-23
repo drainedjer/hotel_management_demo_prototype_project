@@ -21,7 +21,7 @@ const opts = (list, label) => () => D[list].map((x) => [x.id, label(x)]);
 // ---------- login ----------
 function showLogin(msg = '') {
   app.innerHTML = `<div class="login-wrap"><form class="login" id="loginForm">
-    <a class="logo" href="/" style="display:block;margin-bottom:6px">Haven<span>Stay</span></a>
+    <a class="logo" href="/" style="display:block;margin-bottom:6px">Casa<span>Batangueño</span></a>
     <h2>Owner Portal</h2><p class="muted">${esc(msg) || 'Sign in to manage your properties.'}</p>
     <div class="field"><label>Email</label><input name="email" type="email" required autocomplete="username"></div>
     <div class="field"><label>Password</label><input name="password" type="password" required autocomplete="current-password"></div>
@@ -56,7 +56,7 @@ async function loadAll() {
 
 async function startShell() {
   await loadAll();
-  app.innerHTML = `<div class="shell"><aside class="side" id="side"><a class="logo" href="/">Haven<span>Stay</span></a>
+  app.innerHTML = `<div class="shell"><aside class="side" id="side"><a class="logo" href="/">Casa<span>Batangueño</span></a>
    ${NAV.filter(navAllowed).map((n) => `<button data-go="${n[0]}">${n[1]}</button>`).join('')}
     <button data-go="__site">Public site</button></aside>
     <div class="main"><div class="top no-print"><button class="btn ghost sm menu-btn" id="menu">☰</button>
