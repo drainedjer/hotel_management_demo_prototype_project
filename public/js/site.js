@@ -1,10 +1,11 @@
 /* site.js - customer portal: search, cards, map, details modal, application form */
 let map, markerLayer, current = [];
 
+const ALANGILAN = [13.7845, 121.0735];
 
- function initMap() {
-  //Alangilan, Batangas City 
-  map = L.map('map').setView([13.7835, 121.0715], 15);
+function initMap() {
+  // Alangilan, Batangas City
+  map = L.map('map').setView(ALANGILAN, 15);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
@@ -15,7 +16,8 @@ function drawMap(list) {
     L.marker([p.latitude, p.longitude]).addTo(markerLayer).bindPopup(
       `<strong>${esc(p.name)}</strong><br>${money(p.monthlyPrice)}/mo<br><a href="#" data-details="${p.id}">View details</a>`);
   });
-  if (list.length) map.fitBounds(list.map((p) => [p.latitude, p.longitude]), { padding: [40, 40], maxZoom: 14 });
+  if (list.length) map.fitBounds(list.map((p) => [p.latitude, p.longitude]), { padding: [40, 40], maxZoom: 15 });
+  else map.setView(ALANGILAN, 15);
 }
 
 function cardHtml(p) {
