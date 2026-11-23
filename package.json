@@ -1,7 +1,7 @@
 {
-  "name": "havenstay",
+  "name": "CasaBatangueño",
   "version": "1.0.0",
-  "description": "HavenStay - Apartment & Dormitory Rental Management System (HTML, CSS, vanilla JS, Node.js, Express)",
+  "description": "CasaBatangueño - Apartment & Dormitory Rental Management System (HTML, CSS, vanilla JS, Node.js, Express)",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
