@@ -278,7 +278,7 @@ function printReceipt(p) {
   if (!w) return toast('Allow pop-ups to print the receipt.', true);
   w.document.write(`<html><head><title>${esc(p.receiptNumber)}</title><style>body{font-family:Arial,sans-serif;max-width:460px;margin:30px auto;color:#111}
     h2{margin:0}table{width:100%;border-collapse:collapse;margin-top:14px}td{padding:7px 0;border-bottom:1px solid #ddd}td:last-child{text-align:right}.big{font-size:20px;font-weight:700}</style></head>
-    <body><h2>HavenStay</h2><p>Official payment receipt (class-project demo)</p><table>
+    <body><h2>CasaBatangueño</h2><p>Official payment receipt (class-project demo)</p><table>
     <tr><td>Receipt no.</td><td>${esc(p.receiptNumber)}</td></tr><tr><td>Reference</td><td>${esc(p.referenceNumber)}</td></tr>
     <tr><td>Tenant</td><td>${esc(t.fullName)}</td></tr><tr><td>Property / Room</td><td>${esc(propName(p.propertyId))} / ${esc((find('rooms', p.roomId) || {}).roomNumber || '—')}</td></tr>
     <tr><td>Billing month</td><td>${esc(p.billingMonth)}</td></tr><tr><td>Payment date</td><td>${esc(p.paymentDate || '—')}</td></tr><tr><td>Method</td><td>${esc(p.paymentMethod)}</td></tr>
@@ -347,13 +347,13 @@ async function renderReports(view) {
 function exportPdf(r) {
   const doc = new jspdf.jsPDF();
   const peso = (n) => 'PHP ' + Number(n).toLocaleString('en-PH');
-  doc.setFontSize(16); doc.text('HavenStay - Financial Report', 14, 16);
+  doc.setFontSize(16); doc.text('CasaBatangueño - Financial Report', 14, 16);
   doc.setFontSize(10); doc.text(`Period: ${r.range.start} to ${r.range.end}`, 14, 23);
   const s = r.summary;
   doc.autoTable({ startY: 28, head: [['Metric', 'Amount']], body: [['Expected income', peso(s.expectedIncome)], ['Collected', peso(s.collected)], ['Outstanding', peso(s.outstanding)], ['Expenses', peso(s.expenses)], ['Net income', peso(s.netIncome)], ['Occupancy', r.occupancy.percent + '%']] });
   doc.autoTable({ head: [['Property', 'Income', 'Expenses']], body: r.byProperty.map((p) => [p.name, peso(p.income), peso(p.expenses)]) });
   doc.autoTable({ head: [['Expense category', 'Amount']], body: r.byCategory.map((c) => [c.category, peso(c.amount)]) });
-  doc.save('havenstay-report.pdf');
+  doc.save('CasaBatangueño-report.pdf');
 }
 function exportExcel(r) {
   const wb = XLSX.utils.book_new(), s = r.summary;
@@ -361,7 +361,7 @@ function exportExcel(r) {
   XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(r.byProperty), 'Per property');
   XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(r.byCategory), 'Expenses');
   XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(r.byTenant), 'Per tenant');
-  XLSX.writeFile(wb, 'havenstay-report.xlsx');
+  XLSX.writeFile(wb, 'CasaBatangueño-report.xlsx');
 }
 
 // ---------- boot ----------
