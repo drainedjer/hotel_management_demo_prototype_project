@@ -249,7 +249,7 @@
       "monthlyPrice": 8500,
       "status": "Occupied",
       "images": [
-        "/images/prop_emerald_residences_1795079065780.jpg"
+        "/images/Room-01.png"
       ],
       "description": "Corner 1-bedroom apartment with glass balcony and full kitchen"
     },
@@ -267,7 +267,7 @@
       "monthlyPrice": 8500,
       "status": "Available",
       "images": [
-        "/images/background.png"
+        "/images/Room-01.png"
       ],
       "description": "Bright 1-bedroom apartment overlooking Salcedo street trees"
     },
@@ -285,7 +285,7 @@
       "monthlyPrice": 2800,
       "status": "Available",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png"
       ],
       "description": "4-bed student suite with individual study desks, lamps, and lockers"
     },
@@ -303,7 +303,7 @@
       "monthlyPrice": 2800,
       "status": "Occupied",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png"
       ],
       "description": "4-bed courtyard-facing dormitory room with ensuite shower"
     },
@@ -321,7 +321,7 @@
       "monthlyPrice": 3000,
       "status": "Reserved",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-02.png.jpg"
       ],
       "description": "Single occupancy private dorm room near study commons"
     },
@@ -339,7 +339,7 @@
       "monthlyPrice": 9500,
       "status": "Occupied",
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/Room-03.png"
       ],
       "description": "Furnished executive studio with solid oak desk and queen bed"
     },
@@ -357,7 +357,7 @@
       "monthlyPrice": 9500,
       "status": "Available",
       "images": [
-        "/images/prop_harborview_suites_1795079065708.jpg"
+        "/images/Room-03.png"
       ],
       "description": "High-floor sunlit studio suite with kitchenette and wardrobe"
     },
@@ -375,7 +375,7 @@
       "monthlyPrice": 2500,
       "status": "Available",
       "images": [
-        "/images/prop_maple_boarding_1795079065766.jpg"
+        "/images/Room-04.png"
       ],
       "description": "Twin-sharing room steps from shared kitchen and dining hall"
     },
@@ -393,7 +393,7 @@
       "monthlyPrice": 3000,
       "status": "Maintenance",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-04.png"
       ],
       "description": "Private boarding room currently undergoing AC servicing"
     },
@@ -411,7 +411,7 @@
       "monthlyPrice": 4500,
       "status": "Occupied",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-05.png"
       ],
       "description": "Furnished single study room with built-in bookshelf"
     },
@@ -429,7 +429,7 @@
       "monthlyPrice": 4500,
       "status": "Available",
       "images": [
-        "/images/room_private_studio_1795079066609.jpg"
+        "/images/Room-05.png"
       ],
       "description": "Top-floor quiet single room overlooking campus trees"
     }
