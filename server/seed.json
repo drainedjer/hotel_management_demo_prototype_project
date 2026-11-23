@@ -3,7 +3,7 @@
     {
       "id": 1,
       "fullName": "Lance Caringal",
-      "email": "owner@casa-bat.demo",
+      "email": "owner@casa-bat.com",
       "passwordHash": "$2b$10$kxCW3IHAOqzrwGAJ90fju.EKBC21xkIUCTKPIHjeaPWgTMokeNyIa",
       "role": "owner",
       "phone": "+63 917 555 0101",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "fullName": "Jeremy Cedrick Rodriguez",
-      "email": "admin@casa-.demo",
+      "email": "admin@casa-.com",
       "passwordHash": "$2b$10$RwBBLpQx4m7pB9eELupfZuyXO4NIGZ.CT4vLV/m./Mbg1w6aS/.bq",
       "role": "admin",
       "phone": "+63 917 555 0102",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "fullName": "Christian Jacob Semira",
-      "email": "staff@casa-bat.demo",
+      "email": "staff@casa-bat.com",
       "passwordHash": "$2b$10$xeCKh.bf9Cs2/FHxpM.LBOcuvSTT0wLO8FbZdrl2FQaRubrry/Wnu",
       "role": "staff",
       "phone": "+63 917 555 0103",
@@ -61,7 +61,7 @@
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "leasing@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-01T09:00:00.000Z"
     },
     {
@@ -93,7 +93,7 @@
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "dorm@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-04T09:00:00.000Z"
     },
     {
@@ -125,7 +125,7 @@
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "studios@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-10T09:00:00.000Z"
     },
     {
@@ -157,7 +157,7 @@
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "maple@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-02-15T09:00:00.000Z"
     },
     {
@@ -188,7 +188,7 @@
       ],
       "isPublished": true,
       "contactPhone": "+63 917 555 0101",
-      "contactEmail": "cedar@havenstay.demo",
+      "contactEmail": "owner@casa-bat.com",
       "createdAt": "2026-03-01T09:00:00.000Z"
     }
   ],
