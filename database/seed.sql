@@ -1,17 +1,17 @@
 -- =============================================================================
 -- HavenStay: Sample Seed Data for rental_management_db
 -- Demo passwords (bcrypt hashed):
---   owner@casa-bat.demo / Owner123!
---   admin@casa-bat.demo / Admin123!
---   staff@casa-bat.demo / Staff123!
+--   owner@casa-bat.com / Owner123!
+--   admin@casa-bat.com / Admin123!
+--   staff@casa-bat.com / Staff123!
 -- =============================================================================
 
 USE rental_management_db;
 
 INSERT INTO users (id, full_name, email, password_hash, role, phone) VALUES
-(1, 'Lance Caringal', 'owner@casa-bat.demo', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8uW7fV4xM2Q6cE5rN7iF6B3d7v7sK6', 'owner', '+63 917 555 0101'),
-(2, 'Jeremy Cedrick Rodriguez', 'admin@casa-bat.demo', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8uW7fV4xM2Q6cE5rN7iF6B3d7v7sK6', 'admin', '+63 917 555 0102'),
-(3, 'Christian Jacob Semira', 'staff@casa-bat.demo', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8uW7fV4xM2Q6cE5rN7iF6B3d7v7sK6', 'staff', '+63 917 555 0103');
+(1, 'Lance Caringal', 'owner@casa-bat.com', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8uW7fV4xM2Q6cE5rN7iF6B3d7v7sK6', 'owner', '+63 917 555 0101'),
+(2, 'Jeremy Cedrick Rodriguez', 'admin@casa-bat.com', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8uW7fV4xM2Q6cE5rN7iF6B3d7v7sK6', 'admin', '+63 917 555 0102'),
+(3, 'Christian Jacob Semira', 'staff@casa-bat.com', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8uW7fV4xM2Q6cE5rN7iF6B3d7v7sK6', 'staff', '+63 917 555 0103');
 
 INSERT INTO owners (id, user_id, business_name, tax_id, billing_address) VALUES
 (1, 1, 'HavenStay Property Holdings', 'TIN-402-881-990', '248 Ayala Avenue, Makati City');
