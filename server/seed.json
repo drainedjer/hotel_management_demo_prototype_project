@@ -35,7 +35,7 @@
     {
       "id": 1,
       "ownerId": 1,
-      "name": "Emerald Crest Residences",
+      "name": "South Mars St.",
       "propertyType": "Apartment",
      "address": "15 Mars St., Golden Country Homes, Alangilan",
       "city": "Batangas City",
@@ -67,7 +67,7 @@
     {
       "id": 2,
       "ownerId": 1,
-      "name": "Oakwood University Dormitory",
+      "name": "Golden Country Homes, Alangilan",
       "propertyType": "Dormitory",
       "address": "Mercury St., Golden Country Homes, Alangilan",
 "city": "Batangas City",
@@ -99,7 +99,7 @@
     {
       "id": 3,
       "ownerId": 1,
-      "name": "Harborview Studio Suites",
+      "name": "Alangilan Proper / National Highway",
       "propertyType": "Studio Unit",
       "address": "Jose P. Laurel Hwy, Brgy. Alangilan",
 "city": "Batangas City",
@@ -131,7 +131,7 @@
     {
       "id": 4,
       "ownerId": 1,
-      "name": "Maple Grove Boarding House",
+      "name": "South Alangilan / Villa Josefa area",
       "propertyType": "Boarding House",
       "address": "Sitio Ibaba, Brgy. Alangilan",
 "city": "Batangas City",
@@ -163,7 +163,7 @@
     {
       "id": 5,
       "ownerId": 1,
-      "name": "Cedar Hall Private Rooms",
+      "name": "Sitio Ibaba, South Alangilan",
       "propertyType": "Private Room",
      "address": "Sitio Ibaba, Brgy. Alangilan",
       "city": "Batangas City",
