@@ -41,9 +41,9 @@ function showLogin(msg = '') {
 
 // ---------- shell ----------
 const NAV = [
-  ['dashboard', '📊', 'Dashboard'], ['properties', '🏢', 'Properties', 'owner'], ['buildings', '🏗️', 'Buildings', 'owner'],
-  ['rooms', '🛏️', 'Rooms'], ['tenants', '👥', 'Tenants'], ['applications', '📝', 'Applications'], ['payments', '💳', 'Payments'],
-  ['expenses', '🧾', 'Expenses'], ['reports', '📈', 'Reports'], ['users', '🔐', 'Users', 'admin'],
+  ['dashboard', 'Dashboard'], ['properties', 'Properties', 'owner'], ['buildings', 'Buildings', 'owner'],
+  ['rooms', 'Rooms'], ['tenants', 'Tenants'], ['applications', 'Applications'], ['payments', 'Payments'],
+  ['expenses', 'Expenses'], ['reports', 'Reports'], ['users', 'Users', 'admin'],
 ];
 const navAllowed = (n) => !n[3] || (n[3] === 'owner' ? user.role !== 'staff' : user.role === n[3]);
 
@@ -58,7 +58,7 @@ async function startShell() {
   await loadAll();
   app.innerHTML = `<div class="shell"><aside class="side" id="side"><a class="logo" href="/">Haven<span>Stay</span></a>
     ${NAV.filter(navAllowed).map((n) => `<button data-go="${n[0]}">${n[1]} ${n[2]}</button>`).join('')}
-    <button data-go="__site">🌐 Public site</button></aside>
+    <button data-go="__site"> Public site</button></aside>
     <div class="main"><div class="top no-print"><button class="btn ghost sm menu-btn" id="menu">☰</button>
       <strong id="title"></strong><div class="who"><span class="badge b-info">${esc(user.role)}</span><span>${esc(user.fullName)}</span>
       ${user.role !== 'staff' ? '<button class="btn ghost sm" id="reset">Reset demo data</button>' : ''}<button class="btn ghost sm" id="logout">Log out</button></div></div>
