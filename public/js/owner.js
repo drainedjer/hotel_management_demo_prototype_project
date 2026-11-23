@@ -157,8 +157,8 @@ const CFG = {
       ['Rooms free', (r) => `${r.availableRoomsCount}/${r.totalRoomsCount}`], ['Public', (r) => badge(r.isPublished ? 'Active' : 'Cancelled').replace('Active', 'Published').replace('Cancelled', 'Hidden')]],
     fields: [
       { name: 'name', label: 'Name', required: true }, { name: 'propertyType', label: 'Type', type: 'select', list: TYPES, required: true },
-      { name: 'address', label: 'Address', required: true }, { name: 'city', label: 'City' },
-      { name: 'latitude', label: 'Latitude', type: 'number', step: 'any', def: 14.5995 }, { name: 'longitude', label: 'Longitude', type: 'number', step: 'any', def: 120.9842 },
+      { name: 'address', label: 'Address', required: true }, { name: 'city', label: 'City', def: 'Batangas City' },
+      { name: 'latitude', label: 'Latitude', type: 'number', step: 'any', def: 13.7845 }, { name: 'longitude', label: 'Longitude', type: 'number', step: 'any', def: 121.0735 },
       { name: 'monthlyPrice', label: 'Starting monthly price (₱)', type: 'number', required: true }, { name: 'contactPhone', label: 'Contact phone' },
       { name: 'contactEmail', label: 'Contact email', type: 'email' }, { name: 'isPublished', label: 'Published on public site', type: 'checkbox' },
       { name: 'description', label: 'Description', type: 'textarea', full: true },
