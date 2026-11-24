@@ -63,13 +63,7 @@ GET /api/dashboard/summary?range=today|week|month|year|all|custom&start&end
 
 GET /api/reports/financial · /api/users (admin) · POST /api/demo/reset
 
-Business rules enforced by the server
 
-Room capacity cannot be exceeded · room availability is recalculated on move-in/out and reservations · one payment per tenant per month · balances/status are computed from amounts · a single-bed room cannot be reserved by two applicants · role checks on every protected route.
-
-Deploy to Vercel (free Hobby)
-
-Push to GitHub and import the repo in Vercel. vercel.json routes /api/* to api/index.js. On Vercel the demo store lives in /tmp, so it resets when the function restarts — fine for a single-session demonstration, not for persistent multi-device data.
 
 Using MySQL instead
 
